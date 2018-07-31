@@ -1,0 +1,339 @@
+
+/* Universal Styles */
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.2;
+  color: #5C5350;
+  background-color:#F5F4F4;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 4rem;
+  z-index: 100;
+  justify-content: space-between;
+  background-color: inherit;
+  border-bottom: 1.5px solid #e9967a;
+}
+
+.logo img {
+  height: 2.5rem;
+}
+
+.logo span {
+  font-size: 2rem;
+}
+
+.hightlight {
+  font-weight: 700;
+  color: #992E13;
+}
+
+.red {
+  color: #e9967a;
+  text-decoration: none;
+}
+
+.logo, ul {
+  margin: auto 1.5rem;
+}
+
+nav a {
+  padding-left: 1rem;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.25rem;
+  font-weight: 200;
+}
+
+/* Main Content */
+
+main {
+  position: relative;
+  top: 4rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75rem;
+  color: #BBB7B4;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* First Section: Introduction */
+
+.introduction {
+  width: 100%;
+  background-color: #5C5350;
+}
+
+.banner {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.learn {
+  width: 40%;
+}
+
+.learn h1, .learn h3 {
+  width: 85%;
+  margin-bottom: 2.5rem;
+}
+
+h1, button {
+  color: #F5F4F4;
+}
+
+h3, button {
+  font-weight: 400;
+}
+
+button {
+  width: 65%;
+  background-color: #992E13;
+  border-style: none;
+  border-radius: 1.5rem;
+  font-size: 1.75rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  transition: background-color 750ms ease-in 50ms;
+}
+
+button:hover {
+  background-color: #e9967a;
+}
+
+/* Second Section: Information */
+
+.information {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.left-block {
+  width: 60%;
+}
+
+.right-block {
+  width: 40%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: space-between;
+}
+
+.practice {
+  padding: 2rem 1.5rem;
+}
+
+.practice img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.text {
+  padding: 0 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.text h2 {
+  margin-bottom: 1.5rem;
+}
+
+address {
+  margin: 2rem auto;
+}
+
+.info {
+  padding: 1rem;
+  border-radius: 1.5rem;
+  transition: background-color 750ms ease-in 50ms;
+}
+
+.info:hover {
+  background-color: #5C5350;
+}
+
+.image {
+  width: 35%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.data {
+  width: 65%;
+  margin-left: 1rem;
+}
+
+.data h3, .data p {
+  margin-bottom: 0.5rem;
+}
+
+.data p {
+  color: #F5F4F4;
+}
+
+.data a {
+  color: #992E13;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: color 1ms linear;
+}
+
+.data a:hover {
+  color: #e9967a;
+}
+
+/* Third Section: Courses Offer */
+
+.course-offer {
+  width: 100%;
+  background-color: #5C5350;
+  padding: 2rem 4.5rem;
+  text-align: center;
+}
+
+.course-offer h2 {
+  color: #F5F4F4;
+  margin-bottom: 1rem;
+}
+
+.course-matrix, .course-row {
+  width: 100%;
+}
+
+.course {
+  width: 33.33%;
+  background-color: #F5F4F4;
+  margin: 1rem;
+  border-radius: 1.5rem;
+}
+
+.course img {
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.course-text {
+  height: 12rem;
+  padding: 1rem 2rem 2rem 1rem;
+  text-align: left;
+}
+
+.course-text a {
+  color: #992E13;
+  text-decoration: none;
+  transition: color 1ms linear;
+}
+
+.course-text a:hover {
+  color: #e9967a;
+}
+
+.course-text h3 {
+  color: #992E13;
+}
+
+br {
+  line-height: 1;
+}
+
+/* Fourth Section: Thesis */
+
+.thesis {
+  padding: 2rem 0;
+}
+
+.thesis-matrix {
+  width: 100%;
+  align-items: flex-start;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis-left {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.thesis-left video {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
+}
+
+.thesis-text h3 {
+  color:inherit;
+}
+
+.thesis-right {
+  width: 40%;
+  padding: 2rem 0;
+}
+
+/* Footer */
+
+footer {
+  height: 6rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  background-color: #5C5350;
+  justify-content: space-between;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  border-top: 1.5px solid #e9967a;
+
+}
+footer a, p {
+  font-size: 0.90rem;
+}
+
+.legal a {
+  padding-left: 1rem;
+}
